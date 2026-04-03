@@ -1,0 +1,22 @@
+{
+  "id": "com.enclave.webview",
+  "name": "WebView Browser",
+  "version": "2.0.0",
+  "description": "Embedded web browser for Enclave",
+  "author": "Enclave",
+  "type": "ui",
+  "entry": "index.cjs",
+  "sandboxVersion": 1,
+  "permissions": [
+    "ui:views:register",
+    "ui:notifications:show",
+    "events:listen",
+    "storage:write"
+  ],
+  "ui": {
+    "entry": "ui/dist/index.js",
+    "components": {
+      "WebViewComponent": "named"
+    }
+  }
+}
