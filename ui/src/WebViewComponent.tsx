@@ -3,7 +3,7 @@ import React, { useState, useRef } from 'react';
 // Access UI components from the host app's API
 declare global {
   interface Window {
-    EnclaveAPI: {
+    EavesAPI: {
       React: typeof React;
       ReactDOM: typeof import('react-dom');
       UI: {
@@ -17,7 +17,7 @@ declare global {
   }
 }
 
-const { Button, Input } = window.EnclaveAPI.UI;
+const { Button, Input } = window.EavesAPI.UI;
 
 /**
  * WebView Component
@@ -39,8 +39,8 @@ export function WebViewComponent() {
     setCurrentUrl(navigateUrl);
 
     // Emit navigation event for plugin
-    window.EnclaveAPI.electron?.send?.('plugin-event', {
-      pluginId: 'com.enclave.webview',
+    window.EavesAPI.electron?.send?.('plugin-event', {
+      pluginId: 'com.eaves.webview',
       event: 'webview:navigate',
       data: { url: navigateUrl }
     });

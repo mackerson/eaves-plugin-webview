@@ -1,5 +1,5 @@
 /**
- * WebView Plugin for Enclave
+ * WebView Plugin for Eaves
  * Provides an embedded web browser view
  */
 

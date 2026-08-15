@@ -1,11 +1,11 @@
 # WebView Plugin
 
 **Version**: 2.0.0
-**ID**: `com.enclave.webview`
+**ID**: `com.eaves.webview`
 
 ## Description
 
-Embedded web browser for Enclave. Provides a custom view with full web browsing capabilities within the app.
+Embedded web browser for Eaves. Provides a custom view with full web browsing capabilities within the app.
 
 ## Features
 
@@ -16,7 +16,7 @@ Embedded web browser for Enclave. Provides a custom view with full web browsing 
 
 ## Usage
 
-This plugin is bundled with Enclave and activated automatically. Access the browser by clicking the 🌐 Browser icon in the sidebar.
+This plugin is bundled with Eaves and activated automatically. Access the browser by clicking the 🌐 Browser icon in the sidebar.
 
 ## API Usage
 

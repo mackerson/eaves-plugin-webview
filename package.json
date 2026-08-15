@@ -1,5 +1,5 @@
 {
-  "name": "@enclave-plugin/webview-ui",
+  "name": "@eaves-plugin/webview-ui",
   "version": "2.0.0",
   "description": "UI bundle for WebView plugin",
   "private": true,

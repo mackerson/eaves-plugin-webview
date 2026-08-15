@@ -1,9 +1,9 @@
 {
-  "id": "com.enclave.webview",
+  "id": "com.eaves.webview",
   "name": "WebView Browser",
   "version": "2.0.0",
-  "description": "Embedded web browser for Enclave",
-  "author": "Enclave",
+  "description": "Embedded web browser for Eaves",
+  "author": "Eaves",
   "type": "ui",
   "entry": "index.cjs",
   "sandboxVersion": 1,
